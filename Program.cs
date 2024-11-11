@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.WriteLine("lista desayunos:");
+for(int i=0;i < nombres.Length; i++)
+{
+    Console.WriteLine($"- {nombres[i]}");
+
+
+
+}
